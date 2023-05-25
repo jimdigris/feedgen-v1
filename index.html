@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Feed Generator</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/theme/style.css?2" rel="stylesheet" />
+	<link href="/css/custom.css?3" rel="stylesheet" />
+</head>
+
+<body>
+	<div id="level">
+		<div id="content">
+			<div id="gears">
+				<div id="gears-static"></div>
+				<div id="gear-system-1">
+					<div id="gear15"></div>
+					<div id="gear14"></div>
+					<div id="gear13"></div>
+				</div>
+				<div id="gear-system-2">
+					<div id="gear10"></div>
+					<div id="gear3"></div>
+				</div>
+				<div id="gear-system-3">
+					<div id="gear9"></div>
+					<div id="gear7"></div>
+				</div>
+				<div id="gear-system-4">
+					<div id="gear6"></div>
+					<div id="gear4"></div>
+				</div>
+				<div id="gear-system-5">
+					<div id="gear12"></div>
+					<div id="gear11"></div>
+					<div id="gear8"></div>
+				</div>
+				<div id="gear1"></div>
+				<div id="gear-system-6">
+					<div id="gear5"></div>
+					<div id="gear2"></div>
+				</div>
+				<div id="chain-circle"></div>
+				<div id="chain"></div>
+				<div id="weight"></div>
+			</div>
+			<div id="title">
+				<h1>Генератор XML</h1>
+
+				<iframe id="generator" src="" width="100%" height="400px"></iframe>
+
+				<div id='logs'>
+					<p> ... </p>
+				</div>
+
+				<div id="scan_option">
+					<input id="input-all" name="product" type="radio" value="all" checked> <label for="input-all">Все товары</label>
+					<input id="input-apparat" name="product" type="radio" value="apparat"> <label for="input-apparat">Аппараты</label>
+					<input id="input-camera" name="product" type="radio" value="camera"> <label for="input-camera">Камеры</label>
+					<input id="input-komplekt" name="product" type="radio" value="komplekt"> <label for="input-komplekt">Комплекты</label>
+					<input id="input-kompressor" name="product" type="radio" value="kompressor"> <label for="input-kompressor">Компрессоры</label>
+				</div>
+
+				<button id='btn_start'>Старт</button>
+				<a id="btn_download" href="" target="_blank">Скачать</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="/scripts/config.js"></script>
+	<script src="/scripts/functions.js?2"></script>
+	<script src="/scripts/brain.js"></script>
+</body>
+
+</html>
